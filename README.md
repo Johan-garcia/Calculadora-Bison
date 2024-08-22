@@ -33,7 +33,7 @@ Esto generara un ejecutable llamado calc
 
     bison -d calc.y
     flex calc.l
-    gcc y.tab.c lex.yy.c -o calc -lm
+    gcc calc.tab.c lex.yy.c -o calc -lm
 ```
 
 ### Ejecutar el archivo resultante de la compilacion
